@@ -1,11 +1,15 @@
 body {
-  background-color: #ffee83;
+  /* background-image: url('images/background.svg'); */
+  background-color: #df9d39; 
+  background-repeat: no-repeat;
+  background-size:cover;
 }
 
 #text {
   background-color: #0a0a23;
   color: #ffffff;
   padding: 10px;
+  border: solid 2px #c69d52;
 }
 
 #game {
@@ -43,5 +47,20 @@ button {
   color: #0a0a23;
   background-color: #feac32;
   background-image: linear-gradient(#fecc4c, #ffac33);
-  border: 3px solid #feac32;
+  border: 3px solid #ca7d0b;
+}
+
+button:hover{
+  font-weight: bold;
+}
+
+#weaponImg, #coinImg, #heartImg {
+  width: 12px;
+}
+
+#characterImg{
+  width: 30px;
+  background-color: #b49c69;
+  padding: 3px;
+  border: #734500 solid 2px;
 }
